@@ -43,7 +43,7 @@ class WorkAtTech
 		for(int i=0;i<n;++i){
 			
 			sum = sum + arr[i];
-			maxInt = Math.max(maxInt);
+			maxInt = Math.max(maxInt,sum);
 		}
 		
 		//count how many digits 
@@ -58,7 +58,7 @@ class WorkAtTech
 		
 		
 		//Printing the subarray
-		int[] arr = new int[n];
+		//int[] arr = new int[n];
 		
 		for(int i=0;i<n;i++){
 			arr[i] = sc.nextInt();
